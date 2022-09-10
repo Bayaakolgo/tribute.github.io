@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
-    'paypal.standard.ipn',
 ]
 
 MIDDLEWARE = [
@@ -122,6 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIR = [os.path.join(BASE_DIR, 'static')]
 
-#django-paypal settings
-PAYPAL_TEST = True
-PAYPAL_RECEIVER_EMAIL = 'mohammedabass75@gmail.com'
+
