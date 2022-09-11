@@ -263,13 +263,26 @@
     </section>
 
     <!--***** Contact Us *****-->
-    <section class="contact" id="contact">
-      <h2>Help us do more</h2>
+    <section class="contact" id="donate">
+      <h2 class="secf">Help us do More</h2>
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed bg-transparent text-light"type="button"data-bs-toggle="collapse"data-bs-target="#flush-collapseOne"aria-expanded="false"aria-controls="flush-collapseOne">
+          Click to Show BTC Address
+        </button>
+      </h2>
+
+      <div id="flush-collapseOne"class="accordion-collapse collapse text-light"aria-labelledby="flush-headingOne"data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body answer answer btc">
+            bitcoin:bc1qcvx4tdd87zaxef4tztggzs9xzxcwwv5rdx7tsp
+        </div>
+      </div>
+
       <div id="smart-button-container">
         <div style="text-align: center;">
           <div id="paypal-button-container"></div>
         </div>
       </div>
+      
       <script src="https://www.paypal.com/sdk/js?client-id=AZWsYM13dloq7U8fHIWQVgYx5AZ-jQpgWtsO1ytq_JxF6snHjuiCUX0oNpIarPPidP5tXlWWuZHtOnKp&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
       <script>
         function initPayPalButton() {

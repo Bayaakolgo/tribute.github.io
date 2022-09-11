@@ -517,7 +517,12 @@ button {
 }
 
 
+
+
 /******** Contact Us *******/
+.btc{
+    margin-bottom: 20px;
+}
 .contact {
     display: block;
     color: white;

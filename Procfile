@@ -1,0 +1,1 @@
+web: guincorn tribute_project.wsgi --logfile -
